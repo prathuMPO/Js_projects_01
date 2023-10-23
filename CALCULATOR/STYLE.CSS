@@ -72,3 +72,6 @@ button{
 .btn-clear{
     background-color: red;
 }
+.btn-delete{
+    background-color: rgb(92, 182, 28);
+}

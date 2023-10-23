@@ -1,9 +1,11 @@
 (function(){
-
-    let screen = document.querySelector('.screen');
-    let buttons = document.querySelectorAll('.btn');
-    let clear = document.querySelector('.btn-clear');
-    let equal = document.querySelector('.btn-equal');
+    
+    let screen = document.querySelector('.screen')
+    let buttons = document.querySelectorAll('.btn')
+    let clear = document.querySelector('.btn-clear')
+    
+    let equal = document.querySelector('.btn-equal')
+    let del = document.querySelector('.btn-delete');
     
 
 
@@ -27,5 +29,11 @@
     clear.addEventListener('click', function(e){
         screen.value = "";
     })
+
+    del.addEventListener('click', function(e){
+        screen.value = ' 0 '
+
+    })
+
 
 }) ();
